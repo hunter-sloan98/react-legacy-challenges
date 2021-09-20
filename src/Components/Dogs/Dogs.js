@@ -1,14 +1,16 @@
 import React from 'react';
 import {Container} from 'reactstrap';
- 
+import DogSearch from './DogIndex';
+
 const Dogs = () => {
 
   return (
     <Container className="App">
+      <DogSearch />
       <br />
-      <h1 className="App-intro">
+      <h3 className="App-intro">
         For this challenge, write the logic to accomplish the following:
-      </h1>
+      </h3>
       <hr/>
       <ul>
         <li>Fetch a random image from this api: <a href="https://dog.ceo/dog-api/">here</a></li>
@@ -22,5 +24,5 @@ const Dogs = () => {
   );
 
 }
- 
+
 export default Dogs;
